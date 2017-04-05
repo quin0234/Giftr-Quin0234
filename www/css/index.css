@@ -1,0 +1,59 @@
+*{
+    /**padding: 0;
+    margin: 0;
+    box-sizing: border-box; **/
+}
+:root{
+    font-size: calc(1.5vh + 1.5vw + 1vmin);
+}
+body{
+    font-size: 1.0rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    height: 100vh;
+}
+
+span.name{
+    float:left;
+    /**width: 50%; **/
+    font-size: 0.9rem;
+    /**padding: 0.5rem 0;
+    margin: 0; **/
+    overflow: hidden;
+    color: #333;
+}
+span.dob{
+    font-size: 0.7rem;
+    color: #666;
+}
+.midline{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    color: #eb6258;
+}
+
+.bar-nav, .title, .bar-tab, #clear{
+    background-color: #eb6258;
+    color: #d1d1d1;
+}
+
+#deleteEverything {
+    color: #d1d1d1;
+}
+
+.pull-right {
+    color: #d1d1d1;
+}
+
+h6 {
+    text-align: center;
+    color: #eb6258;
+}
+
+#ideaName, #ideaLocation, #ideaUrl, #ideaCost {
+    color: #333;
+} 
+
+.icon-trash {
+    color: #eb6258;
+}
